@@ -81,16 +81,20 @@
             }
         }
 
-        .botonMasInfo {
-            display: inline-block;
-            background-color: rgba(240, 248, 255, 0);
-            color: black;
-            text-decoration: none;
+        .divBotonMasInfo {
             text-align: center;
-            padding: 10px 10px;
-            border: 2px solid black;
-            margin: 20px 0px 20px 850px;
-            font-weight: bold;
+
+            .botonMasInfo {
+                display: inline-block;
+                background-color: rgba(240, 248, 255, 0);
+                color: black;
+                text-decoration: none;
+                text-align: center;
+                padding: 10px 10px;
+                border: 2px solid black;
+                margin: 20px;
+                font-weight: bold;
+            }
         }
     }
 }
@@ -168,5 +172,63 @@
 
     .copyRightFooter {
         text-align: right;
+    }
+}
+
+/* Página Destinos */
+
+.mainDestino {
+    .encabezadoDestino {
+        .h1Destino {
+            text-align: center;
+            font-size: 6rem;
+            padding-top: 300px;
+
+        }
+    }
+
+    .seccionDestino {
+        .h3Destino {
+            font-family: 'Milonga', serif;
+            font-size: 3rem;
+            text-align: center;
+        }
+
+        .pDestino {
+            font-weight: bold;
+            text-align: center;
+            font-size: 1.5rem;
+            padding: 40px;
+        }
+
+        .divImagenDestino {
+            text-align: center;
+
+            .imagenDestino {
+                height: 80vh;
+                width: 80%;
+            }
+        }
+
+        .h2Destino {
+            font-size: 4rem;
+            text-align: center;
+        }
+
+        .divBotonReserva {
+            text-align: center;
+
+            .botonReserva {
+                display: inline-block;
+                background-color: rgba(240, 248, 255, 0);
+                color: black;
+                text-decoration: none;
+                text-align: center;
+                padding: 10px 10px;
+                border: 2px solid black;
+                margin: 20px 0px;
+                font-weight: bold;
+            }
+        }
     }
 }
