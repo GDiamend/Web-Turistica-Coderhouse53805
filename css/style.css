@@ -29,7 +29,7 @@
 .mainIndex {
     background-color: white;
 
-    .encabezado {
+    .encabezadoIndex {
         height: 800px;
         display: block;
         background-image: url(../assets/image/Patagonia-04.jpg);
@@ -178,6 +178,8 @@
 /* Página Destinos */
 
 .mainDestino {
+    background-color: white;
+
     .encabezadoDestino {
         .h1Destino {
             text-align: center;
@@ -231,4 +233,80 @@
             }
         }
     }
+}
+
+/* Página Booking */
+
+/* Página Us */
+
+.mainNosotros {
+    .encabezadoNosotros {
+        .h1Nosotros {
+            font-size: 6rem;
+            padding-top: 300px;
+            text-align: center;
+        }
+    }
+
+    .historiaNosotros {
+        .divImagenNosotros {
+            text-align: center;
+
+            .imagenNosotros {
+                height: 80vh;
+                width: 80%;
+            }
+        }
+
+        .pNosotros {
+            font-weight: bold;
+            text-align: center;
+            font-size: 1.5rem;
+            padding: 40px;
+        }
+    }
+
+    .filosofiaNosotros {
+
+        .divH2FilosofiaNosotros {
+            text-align: center;
+
+            .h2FilosofiaNosotros {
+                font-size: 3rem;
+            }
+        }
+
+        .divFilosofiaNosotros {
+            text-align: left;
+            margin: 30px;
+
+            .h3FilosofiaNosotros {
+                font-size: 2rem;
+            }
+
+            .pFilosofiaNosotros {
+                font-size: 1.5rem;
+            }
+
+            .listaFilosofia {
+                list-style: decimal;
+                margin-left: 20px;
+
+                .listaItemFilosofia {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+
+        .divCierreNosotros {
+            text-align: center;
+            margin: 30px;
+            .pCierreNosotros {
+                font-size: 1.2rem;
+                font-style: italic;
+            }
+        }
+    }
+
+
 }
