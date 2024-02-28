@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    background-color: black;
+
+    .listaNavegacion {
+        list-style: none;
+        text-align: right;
+
+        .listaItem {
+            display: inline-block;
+
+            .linkNavegacion {
+                text-decoration: none;
+                font-size: 1.5rem;
+                color: white;
+                font-weight: bold;
+                padding: 15px;
+            }
+        }
+    }
+}
+
+.mainIndex {
+    background-color: white;
+
+    .encabezadoIndex {
+        height: 800px;
+        display: block;
+        background-image: url(../assets/image/Patagonia-04.jpg);
+        background-size: cover;
+        background-position: bottom;
+        text-align: center;
+        color: white;
+        font-weight: 500;
+
+        .h1MainIndex {
+            font-size: 6rem;
+            padding-top: 300px;
+        }
+
+        .h2MainIndex {
+            font-size: 4rem;
+        }
+    }
+
+    .videoIndex {
+        text-align: center;
+
+        .h2VideoIndex {
+            margin: 40px 0px;
+            font-size: 4rem;
+        }
+    }
+
+    .destinosIndex {
+        .h3DestinosIndex {
+            font-family: 'Milonga', serif;
+            font-size: 3rem;
+            text-align: center;
+        }
+
+        .pDestinosIndex {
+            font-weight: bold;
+            text-align: center;
+            font-size: 1.5rem;
+            padding: 40px;
+        }
+
+        .divImagenIndex {
+            text-align: center;
+
+            .imagenIndex {
+                height: 80vh;
+                width: 80%;
+            }
+        }
+
+        .divBotonMasInfo {
+            text-align: center;
+
+            .botonMasInfo {
+                display: inline-block;
+                background-color: rgba(240, 248, 255, 0);
+                color: black;
+                text-decoration: none;
+                text-align: center;
+                padding: 10px 10px;
+                border: 2px solid black;
+                margin: 20px;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.footer {
+    background-color: black;
+    color: white;
+
+    .divLogoFooter {
+        text-align: center;
+    }
+
+    .midFooter {
+        display: inline-flex;
+
+        .mapaFooter {
+            text-align: left;
+            margin-left: 80px;
+
+            .pFooter {
+                font-size: 1rem;
+                text-align: center;
+            }
+        }
+
+        .h4Footer {
+            font-size: 1.5rem;
+        }
+
+        .linksFooter {
+            text-align: center;
+
+            .divLinksFooter {
+                text-align: center;
+                margin-left: 250px;
+                display: inline-block;
+
+                .listaFooter {
+                    text-decoration: none;
+                    list-style: none;
+                    text-align: center;
+                    margin: 10px;
+
+                    .listaItemFooter {
+                        margin: 10px;
+
+                        .linkNavegacionFooter {
+                            text-decoration: none;
+                            color: white;
+                            font-weight: bold;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .subscripcionFooter {
+            text-align: center;
+            margin-left: 250px;
+        }
+    }
+
+    .redesFooter {
+        text-align: center;
+
+        .linkRedesFooter {
+            display: inline-block;
+            width: 20px;
+            height: 15px;
+
+        }
+    }
+
+    .copyRightFooter {
+        text-align: right;
+    }
+}
+
+/* Página Destinos */
+
+.mainDestino {
+    background-color: white;
+
+    .encabezadoDestino {
+        .h1Destino {
+            text-align: center;
+            font-size: 6rem;
+            padding-top: 300px;
+
+        }
+    }
+
+    .seccionDestino {
+        .h3Destino {
+            font-family: 'Milonga', serif;
+            font-size: 3rem;
+            text-align: center;
+        }
+
+        .pDestino {
+            font-weight: bold;
+            text-align: center;
+            font-size: 1.5rem;
+            padding: 40px;
+        }
+
+        .divImagenDestino {
+            text-align: center;
+
+            .imagenDestino {
+                height: 80vh;
+                width: 80%;
+            }
+        }
+
+        .h2Destino {
+            font-size: 4rem;
+            text-align: center;
+        }
+
+        .divBotonReserva {
+            text-align: center;
+
+            .botonReserva {
+                display: inline-block;
+                background-color: rgba(240, 248, 255, 0);
+                color: black;
+                text-decoration: none;
+                text-align: center;
+                padding: 10px 10px;
+                border: 2px solid black;
+                margin: 20px 0px;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+/* Página Booking */
+
+/* Página Us */
+
+.mainNosotros {
+    .encabezadoNosotros {
+        .h1Nosotros {
+            font-size: 6rem;
+            padding-top: 300px;
+            text-align: center;
+        }
+    }
+
+    .historiaNosotros {
+        .divImagenNosotros {
+            text-align: center;
+
+            .imagenNosotros {
+                height: 80vh;
+                width: 80%;
+            }
+        }
+
+        .pNosotros {
+            font-weight: bold;
+            text-align: center;
+            font-size: 1.5rem;
+            padding: 40px;
+        }
+    }
+
+    .filosofiaNosotros {
+
+        .divH2FilosofiaNosotros {
+            text-align: center;
+
+            .h2FilosofiaNosotros {
+                font-size: 3rem;
+            }
+        }
+
+        .divFilosofiaNosotros {
+            text-align: left;
+            margin: 30px;
+
+            .h3FilosofiaNosotros {
+                font-size: 2rem;
+            }
+
+            .pFilosofiaNosotros {
+                font-size: 1.5rem;
+            }
+
+            .listaFilosofia {
+                list-style: decimal;
+                margin-left: 20px;
+
+                .listaItemFilosofia {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+
+        .divCierreNosotros {
+            text-align: center;
+            margin: 30px;
+            .pCierreNosotros {
+                font-size: 1.2rem;
+                font-style: italic;
+            }
+        }
+    }
+
+
+}
