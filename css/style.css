@@ -14,6 +14,7 @@ body {
 
     .mainIndex {
         .encabezadoIndex {
+            height: 85vh;
             background-image: url(../assets/image/Patagonia-04.jpg);
             background-size: cover;
             background-position: bottom;
@@ -33,7 +34,6 @@ body {
         .destinosIndex {
             .h3DestinosIndex {
                 font-family: 'Milonga', serif;
-
             }
 
             .imgSize {
