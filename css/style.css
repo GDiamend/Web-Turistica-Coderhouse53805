@@ -31,6 +31,25 @@ body {
             }
         }
 
+        .videoQuery {
+            width: 1200px;
+            height: 600px;
+        }
+
+        @media screen and (max-width: 1300px) {
+            .videoQuery {
+                width: 900px;
+                height: 600px;
+            }
+        }
+
+        @media screen and (max-width: 1000px) {
+            .videoQuery{
+                width: 600px;
+                height: 300px;
+            }            
+        }
+
         .destinosIndex {
             .h3DestinosIndex {
                 font-family: 'Milonga', serif;
@@ -42,8 +61,8 @@ body {
             }
         }
     }
-    
-    footer{
+
+    footer {
         background-color: black;
         color: white;
     }
