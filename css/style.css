@@ -15,7 +15,7 @@ body {
     }
 
     main {
-        .encabezado {
+        .encabezadoIndex {
             height: 85vh;
             background-image: url(../assets/image/Patagonia-04.jpg);
             background-size: cover;
@@ -52,10 +52,11 @@ body {
             }
         }
 
+        h3 {
+            font-family: 'Milonga', serif;
+        }
+
         .destinosIndex {
-            .h3DestinosIndex {
-                font-family: 'Milonga', serif;
-            }
 
             .imgSize {
                 width: 100%;
@@ -73,7 +74,17 @@ body {
 /*Destinos*/
 
 body {
-    h1 {
-        font-size: 6rem;
+    main {
+        .encabezadoDestination {
+            height: 40vh;
+            background-image: url(../assets/image/Destination-h1.jpg);
+            background-size: cover;
+            color: white;
+            font-weight: 900;
+
+            .h1MainDestination {
+                font-size: 6rem;
+            }
+        }
     }
 }
