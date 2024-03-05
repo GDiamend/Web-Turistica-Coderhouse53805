@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+/*Index*/
+
 body {
     font-family: 'Poppins', sans-serif;
     color: black;
@@ -12,8 +14,8 @@ body {
         background-color: black;
     }
 
-    .mainIndex {
-        .encabezadoIndex {
+    main {
+        .encabezado {
             height: 85vh;
             background-image: url(../assets/image/Patagonia-04.jpg);
             background-size: cover;
@@ -44,10 +46,10 @@ body {
         }
 
         @media screen and (max-width: 1000px) {
-            .videoQuery{
+            .videoQuery {
                 width: 600px;
                 height: 300px;
-            }            
+            }
         }
 
         .destinosIndex {
@@ -65,5 +67,13 @@ body {
     footer {
         background-color: black;
         color: white;
+    }
+}
+
+/*Destinos*/
+
+body {
+    h1 {
+        font-size: 6rem;
     }
 }
