@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+.btn-color{
+    background-color: rgba(0, 195, 255, 0.882);
+    color: white;
+}
+
 /*Index*/
 
 body {
@@ -11,7 +16,8 @@ body {
     background-color: white;
 
     .bgNavegacion {
-        background-color: black;
+        background-image: url(../assets/image/Bandera-.png);
+        background-size: contain;
     }
 
     main {
@@ -26,10 +32,12 @@ body {
             .h1MainIndex {
                 font-size: 6rem;
                 padding-top: 300px;
+                text-shadow: 2px 2px 2px black;
             }
 
             .h2MainIndex {
                 font-size: 4rem;
+                text-shadow: 2px 2px 2px black;
             }
         }
 
@@ -84,7 +92,15 @@ body {
 
             .h1MainDestination {
                 font-size: 6rem;
+                text-shadow: 2px 2px 2px black;
             }
+        }
+
+        .h2MainDestino{
+            font-family: 'Milonga', serif;
+            font-size: 4rem;    
+            background-image: url(../assets/image/Bandera-.png);        
+            background-size: contain;
         }
     }
 }
