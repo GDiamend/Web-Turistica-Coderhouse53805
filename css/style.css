@@ -3,7 +3,22 @@
     padding: 0;
 }
 
-.btn-color{
+h1 {
+    font-size: 6rem;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-family: 'Milonga', serif;
+}
+
+.btn-color {
     background-color: rgba(0, 195, 255, 0.882);
     color: white;
 }
@@ -26,17 +41,13 @@ body {
             background-image: url(../assets/image/Patagonia-04.jpg);
             background-size: cover;
             background-position: bottom;
-            color: white;
-            font-weight: 900;
 
             .h1MainIndex {
-                font-size: 6rem;
                 padding-top: 300px;
-                text-shadow: 2px 2px 2px black;
             }
 
             .h2MainIndex {
-                font-size: 4rem;
+                color: white;
                 text-shadow: 2px 2px 2px black;
             }
         }
@@ -60,10 +71,6 @@ body {
             }
         }
 
-        h3 {
-            font-family: 'Milonga', serif;
-        }
-
         .destinosIndex {
 
             .imgSize {
@@ -84,22 +91,14 @@ body {
 body {
     main {
         .encabezadoDestination {
-            height: 40vh;
+            height: 60vh;
             background-image: url(../assets/image/Destination-h1.jpg);
             background-size: cover;
-            color: white;
-            font-weight: 900;
-
-            .h1MainDestination {
-                font-size: 6rem;
-                text-shadow: 2px 2px 2px black;
-            }
         }
 
-        .h2MainDestino{
+        .h2MainDestination {
             font-family: 'Milonga', serif;
-            font-size: 4rem;    
-            background-image: url(../assets/image/Bandera-.png);        
+            background-image: url(../assets/image/Bandera-.png);
             background-size: contain;
         }
     }
