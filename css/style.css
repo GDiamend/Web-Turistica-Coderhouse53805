@@ -10,9 +10,19 @@ h1 {
     font-weight: 900;
 }
 
+@media screen and (max-width: 600px),
+screen and (max-height: 600px) {
+    h1 {
+        padding-top: 100px !important;
+        font-size: 3em;
+    }
+
+}
+
 h2 {
     font-size: 4rem;
 }
+
 
 h3 {
     font-family: 'Milonga', serif;
@@ -50,6 +60,13 @@ body {
                 color: white;
                 text-shadow: 2px 2px 2px black;
             }
+
+            @media screen and (max-width: 600px),
+            screen and (max-height: 600px) {
+                .h2MainIndex {
+                    font-size: 2rem;
+                }
+            }
         }
 
         .videoQuery {
@@ -57,17 +74,17 @@ body {
             height: 600px;
         }
 
-        @media screen and (max-width: 1300px) {
+        @media screen and (max-height: 600px) {
             .videoQuery {
-                width: 900px;
-                height: 600px;
+                width: 800px;
+                height: 300px;
             }
         }
 
-        @media screen and (max-width: 1000px) {
+        @media screen and (max-width: 600px) {
             .videoQuery {
-                width: 600px;
-                height: 300px;
+                width: 300px;
+                height: 200px;
             }
         }
 
