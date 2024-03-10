@@ -22,7 +22,7 @@
         <nav class="navbar navbar-expand-md navbar-light bgNavegacion">
             <div class="container-fluid">
                 <div class="w-100 mt-5 mt-md-0 mb-md-4 text-center text-md-start ">
-                    <img src="../assets/image/argentina.png" alt="Logo del header">
+                    <a href="../index.html"> <img src="../assets/image/argentina.png" alt="Logo del header"></a>
                 </div>
                 <div class="w-100 mt-4 mb-2">
                     <ul class="navbar-nav justify-content-center justify-content-md-end flex-row">
@@ -115,10 +115,10 @@
                         </div>
 
                         <div class="widthFormContact mb-3 text-center ">
-                            <input type="submit" class="btn btn-color"
+                            <input type="submit" class="btn btnColor"
                                 onclick="alert('Responderemos tu consulta a la brevedad')" value="Enviar">
                         </div>
-                      
+
                     </form>
                 </div>
             </section>
@@ -127,8 +127,7 @@
     <footer class="text-center">
         <div class="container-fluid">
             <div class="pt-4 pb-4">
-                <a href="../index.html"><img src="../assets/image/argentina.png" alt="Logo empresa turismo"
-                        loading="lazy"></a>
+                <a href="#"><img src="../assets/image/argentina.png" alt="Logo empresa turismo" loading="lazy"></a>
             </div>
             <div class="row">
                 <div class="col-12 col-lg-4">
@@ -171,8 +170,16 @@
                     <section>
                         <h4 class="fs-2">Newsletter</h4>
                         <form action="404.html">
-                            <input type="email" placeholder="correo@ejemplo.com" required id="emailFooter">
-                            <input type="submit" onclick="alert('Gracias por subscribirte!')" value="Subscribirme">
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-md-auto">
+                                    <input type="email" id="inputMail" class="form-control"
+                                        placeholder="correo@ejemplo.com" required>
+                                </div>
+                                <div class="col-12 col-md-auto">
+                                    <input type="submit" class="btn btnColor"
+                                        onclick="alert('Gracias por subscribirte!')" value="Subscribirme">
+                                </div>
+                            </div>
                         </form>
                     </section>
                 </div>

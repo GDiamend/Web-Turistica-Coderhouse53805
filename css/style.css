@@ -49,9 +49,16 @@ h3 {
     background-size: contain;
 }
 
-.btn-color {
-    background-color: rgba(0, 195, 255, 0.882);
+.btnColor {
     color: white;
+    background-color: rgba(0, 195, 255, 0.882);
+    border-color: rgba(0, 195, 255, 0.882);
+
+    &:hover {
+        color: white;
+        background-color: rgba(0, 0, 255, 0.873);
+        border-color: rgba(0, 0, 255, 0.873);
+    }
 }
 
 .widthForm {
