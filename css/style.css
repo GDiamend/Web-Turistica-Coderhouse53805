@@ -3,6 +3,29 @@
     padding: 0;
 }
 
+body {
+    background-image: url(../assets/image/fondo-beige-04.jpg);
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    background-color: white;
+
+    .bgNavegacion {
+        background-image: url(../assets/image/bandera.png);
+        background-size: contain;
+    }
+
+    @media screen and (max-width: 768px) {
+        .bgNavegacion {
+            background-size: cover;
+
+            .textSize {
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
 h1 {
     font-size: 6rem;
     text-shadow: 2px 2px 2px black;
@@ -17,14 +40,13 @@ h1 {
     }
 }
 
-
-h2 {
-    font-size: 4rem;
-}
-
-
 h3 {
     font-family: 'Milonga', serif;
+}
+
+.imgBg {
+    background-image: url(../assets/image/fondo-beige-04.jpg);
+    background-size: contain;
 }
 
 .btn-color {
@@ -32,37 +54,33 @@ h3 {
     color: white;
 }
 
+.widthForm {
+    width: 150px;
+}
+
+@media screen and (max-width: 768px) {
+    .widthForm {
+        width: 25%;
+    }
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
 /*Index*/
 
-body {
-    font-family: 'Poppins', sans-serif;
-    color: black;
-    background-color: white;
-
-    .bgNavegacion {
-        background-image: url(../assets/image/Bandera-.png);
-        background-size: contain;
-    }
-
-    @media screen and (max-width: 768px) {
-        .bgNavegacion {
-            background-size: cover;
-
-            .textSize {
-                font-size: 1rem;
-            }
-        }
-    }
-
-    main {
+.bodyIndex {
+    .mainIndex {
         .encabezadoIndex {
             height: 85vh;
-            background-image: url(../assets/image/Patagonia-04.jpg);
+            background-image: url(../assets/image/patagonia-04.jpg);
             background-size: cover;
             background-position: bottom;
 
             .h1MainIndex {
-                padding-top: 300px;
+                padding-top: 200px;
             }
 
             .h2MainIndex {
@@ -89,26 +107,21 @@ body {
             }
         }
     }
-
-    footer {
-        background-color: black;
-        color: white;
-    }
 }
 
 /*Destination*/
 
-body {
-    main {
+.bodyDestination {
+    .mainDestination {
         .encabezadoDestination {
             height: 60vh;
-            background-image: url(../assets/image/Destination-h1.jpg);
+            background-image: url(../assets/image/destination-h1.jpg);
             background-size: cover;
         }
 
         .h2MainDestination {
             font-family: 'Milonga', serif;
-            background-image: url(../assets/image/Bandera-.png);
+            background-image: url(../assets/image/bandera.png);
             background-size: contain;
         }
     }
@@ -116,12 +129,12 @@ body {
 
 /*Booking*/
 
-body {
-    main {
+.bodyBooking {
+    .mainBooking {
         .encabezadoBooking {
             height: 40vh;
             background-image: url(../assets/image/aeropuerto.jpg);
-            background-size: cover;    
+            background-size: cover;
         }
 
         @media screen and (max-width: 768px) {
@@ -129,14 +142,20 @@ body {
                 height: 20vh;
             }
         }
+    }
+}
 
-        .widthForm {
-            width: 150px;
+/*Contact*/
+
+.bodyContact {
+    .mainContact {
+        .widthFormContact {
+            width: 450px;
         }
 
         @media screen and (max-width: 768px) {
-            .widthForm {
-                width: 25%;
+            .widthFormContact {
+                width: 100%;
             }
         }
     }

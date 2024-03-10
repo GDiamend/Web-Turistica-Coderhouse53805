@@ -17,8 +17,8 @@
     <script src="https://kit.fontawesome.com/26b33f3700.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
-    <header id="header">
+<body class="bodyContact">
+    <header>
         <nav class="navbar navbar-expand-md navbar-light bgNavegacion">
             <div class="container-fluid">
                 <div class="w-100 mt-5 mt-md-0 mb-md-4 text-center text-md-start ">
@@ -44,36 +44,85 @@
             </div>
         </nav>
     </header>
-    <main>
-        <section id="encabezado">
-            <h1>
-                Contactanos en un click!
-            </h1>
-        </section>
-        <section id="local">
-            <img src="../assets/image/Local.webp" alt="local">
-            <p>
-                "¡Descubre Argentina con nosotros! Visita nuestra agencia Turismo en Argentina y déjanos llevar tus
-                sueños de viaje a la realidad. Nuestro equipo está aquí para ofrecerte las mejores experiencias y hacer
-                de tu viaje una aventura inolvidable. Además, si no puedes acercarte personalmente, ¡también puedes
-                dejarnos un mensaje y te responderemos por email! ¡Te esperamos con los brazos abiertos!"
-            </p>
-        </section>
-        <section id="localDireccion">
-            <p>Avenida Santa Fe 1123</p>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3191.0044431963042!2d-58.4095112019925!3d-34.59131400105752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca8485dea823%3A0xb0d789540049582d!2sAv.%20Sta.%20Fe%2C%20C1123%20CABA!5e0!3m2!1sen!2sar!4v1706973711295!5m2!1sen!2sar"
-                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
-        <section id="formulario">
-            <form action="./404.html">
-                <input type="text" placeholder="Tu nombre" required id="nombreFormulario">
-                <input type="email" placeholder="su_correo@ejemplo.com" required id="emailFormulario">
-                <input type="text" placeholder="Tu mensaje" id="mensajeFormulario">
-                <input type="submit" onclick="alert('Responderemos tu consulta a la brevedad')" value="Enviar">
-            </form>
-        </section>
+    <main class="mainContact">
+        <div class="text-center">
+            <section>
+                <h1 class="pt-5 fw-bolder">
+                    Contactanos en un click!
+                </h1>
+            </section>
+        </div>
+
+        <div class="container-fluid">
+            <section class="row align-items-center">
+                <div class="col-12 col-md-4 order-0">
+                    <img class="img-thumbnail" src="../assets/image/local.webp" alt="imágen local">
+                </div>
+                <div class="col-12 col-md-8 order-1">
+                    <p class="fs-4">
+                        "¡Descubre Argentina con nosotros! Visita nuestra agencia Turismo en Argentina y déjanos llevar
+                        tus sueños de viaje a la realidad. Nuestro equipo está aquí para ofrecerte las mejores
+                        experiencias y hacer de tu viaje una aventura inolvidable. Además, si no puedes acercarte
+                        personalmente, ¡también puedes dejarnos un mensaje y te responderemos por email! ¡Te esperamos
+                        con los brazos abiertos!"
+                    </p>
+                </div>
+            </section>
+        </div>
+
+        <div class="container-fluid mt-5 pb-5">
+            <section class="row">
+                <div class="col-12 col-md-6 order-1 order-md-0 text-center">
+                    <p class="fs-5 fw-bold">Avenida Santa Fe 1123</p>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3191.0044431963042!2d-58.4095112019925!3d-34.59131400105752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca8485dea823%3A0xb0d789540049582d!2sAv.%20Sta.%20Fe%2C%20C1123%20CABA!5e0!3m2!1sen!2sar!4v1706973711295!5m2!1sen!2sar"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-12 col-md-6 order-0 order-md-1">
+                    <form action="./404.html">
+                        <div class="row g-3 mb-3 align-items-baseline justify-content-start">
+                            <div class="col-auto widthForm">
+                                <label for="inputNombre" class="col-form-label">Nombre</label>
+                            </div>
+                            <div class="col-6 col-md-4">
+                                <input type="text" id="inputNombre" class="form-control" placeholder="Escriba su nombre"
+                                    required>
+                            </div>
+                        </div>
+
+                        <div class="row g-3 mb-3 align-items-baseline justify-content-start">
+                            <div class="col-auto widthForm">
+                                <label for="inputMail" class="col-form-label">E-mail</label>
+                            </div>
+                            <div class="col-6 col-md-4">
+                                <input type="email" id="inputMail" class="form-control" placeholder="correo@ejemplo.com"
+                                    required>
+                            </div>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control h-100 widthFormContact" placeholder="Deje su comentario aquí"
+                                id="comentarioContact"></textarea>
+                            <label for="comentarioContact">Deje su comentario aquí</label>
+                        </div>
+
+                        <div class="form-check mb-3">
+                            <input class="form-check-input ms-5" type="checkbox" value="" id="flexCheckChecked" checked>
+                            <label class="form-check-label ms-1" for="flexCheckChecked">
+                                Recibir promociones vía mail
+                            </label>
+                        </div>
+
+                        <div class="widthFormContact mb-3 text-center ">
+                            <input type="submit" class="btn btn-color"
+                                onclick="alert('Responderemos tu consulta a la brevedad')" value="Enviar">
+                        </div>
+                      
+                    </form>
+                </div>
+            </section>
+        </div>
     </main>
     <footer class="text-center">
         <div class="container-fluid">
