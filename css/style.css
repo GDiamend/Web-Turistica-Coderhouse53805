@@ -47,7 +47,8 @@ body {
     @media screen and (max-width: 768px) {
         .bgNavegacion {
             background-size: cover;
-            .textSize{
+
+            .textSize {
                 font-size: 1rem;
             }
         }
@@ -95,7 +96,7 @@ body {
     }
 }
 
-/*Destinos*/
+/*Destination*/
 
 body {
     main {
@@ -109,6 +110,34 @@ body {
             font-family: 'Milonga', serif;
             background-image: url(../assets/image/Bandera-.png);
             background-size: contain;
+        }
+    }
+}
+
+/*Booking*/
+
+body {
+    main {
+        .encabezadoBooking {
+            height: 40vh;
+            background-image: url(../assets/image/aeropuerto.jpg);
+            background-size: cover;    
+        }
+
+        @media screen and (max-width: 768px) {
+            .encabezadoBooking {
+                height: 20vh;
+            }
+        }
+
+        .widthForm {
+            width: 150px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .widthForm {
+                width: 25%;
+            }
         }
     }
 }
