@@ -28,7 +28,7 @@ body {
             background-size: cover;
 
             .textSize {
-                font-size: 1rem;
+                font-size: .8rem;
             }
         }
     }
@@ -53,7 +53,7 @@ h3 {
 }
 
 .imgBg {
-    background-image: url(../assets/image/fondo-beige-04.jpg);
+    background-image: url(../assets/image/fondo-beige-03.jpg);
     background-size: contain;
 }
 
