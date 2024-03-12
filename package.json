@@ -1,0 +1,22 @@
+{
+  "name": "web-turistica",
+  "version": "1.0.0",
+  "description": "web empresa turismo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GDiamend/Web-Turistica-Coderhouse53805.git"
+  },
+  "author": "Gaston",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GDiamend/Web-Turistica-Coderhouse53805/issues"
+  },
+  "homepage": "https://github.com/GDiamend/Web-Turistica-Coderhouse53805#readme",
+  "dependencies": {
+    "sass": "^1.71.1"
+  }
+}
