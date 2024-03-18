@@ -1,0 +1,82 @@
+body {
+    background-image: url(../assets/image/fondo-beige-03.jpg);
+    background-size: $background-cover;
+    font-family: $font-principal;
+    color: $color-negro;
+    background-color: $color-blanco;
+
+    .bgNavegacion {
+        background-image: url(../assets/image/bandera.png);
+        background-size: $background-contain;
+
+        .navbar-nav .nav-link {
+            color: $color-negro;
+
+            &:hover {
+                color: $color-azul;
+            }
+        }
+    }
+
+    @media screen and (max-width: $valor-768px) {
+        .bgNavegacion {
+            background-size: $background-cover;
+
+            .textSize {
+                font-size: $valor-fs-08rem;
+            }
+        }
+    }
+}
+
+
+h1 {
+    font-size: $valor-fs-6rem;
+    text-shadow: $valor-2px $valor-2px $valor-2px $color-negro;
+    color: $color-blanco;
+    font-weight: $valor-fw-900;
+}
+
+@media screen and (max-width: $valor-768px) {
+    h1 {
+        padding-top: $valor-100px !important;
+        font-size: $valor-fs-3rem;
+    }
+}
+
+h3 {
+    font-family: $font-secundaria;
+}
+
+.imgBg {
+    background-image: url(../assets/image/fondo-beige-03.jpg);
+    background-size: $background-contain;
+}
+
+
+.btnColor {
+    color: $color-blanco;
+    background-color: $color-celeste;
+    border-color: $color-celeste;
+
+    &:hover {
+        color: $color-blanco;
+        background-color: $color-azul;
+        border-color: $color-azul;
+    }
+}
+
+.widthForm {
+    width: $valor-150px;
+}
+
+@media screen and (max-width: $valor-768px) {
+    .widthForm {
+        width: $valor-25p;
+    }
+}
+
+footer {
+    background-color: $color-negro;
+    color: $color-blanco;
+}

@@ -1,0 +1,17 @@
+/*Booking*/
+
+.bodyBooking {
+    .mainBooking {
+        .encabezadoBooking {
+            height: $valor-40vh;
+            background-image: url(../assets/image/aeropuerto.jpg);
+            background-size: $background-cover;
+        }
+
+        @media screen and (max-width: $valor-768px) {
+            .encabezadoBooking {
+                height: $valor-20vh;
+            }
+        }
+    }
+}

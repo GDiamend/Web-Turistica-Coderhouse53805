@@ -1,0 +1,18 @@
+/*Destination*/
+
+.bodyDestination {
+    .mainDestination {
+        .encabezadoDestination {
+            height: $valor-60vh;
+            background-image: url(../assets/image/bariloche-06.jpg);
+            background-size: $background-cover;
+            background-position: $background-center;
+        }
+
+        .h2MainDestination {
+            font-family: $font-secundaria;
+            background-image: url(../assets/image/bandera.png);
+            background-size: $background-contain;
+        }
+    }
+}
