@@ -4,7 +4,7 @@
     .mainBooking {
         .encabezadoBooking {
             height: $valor-40vh;
-            background-image: url(../assets/image/aeropuerto.jpg);
+            background-image: $background-img-booking;
             background-size: $background-cover;
         }
 

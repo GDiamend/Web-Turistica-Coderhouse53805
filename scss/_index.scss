@@ -4,7 +4,7 @@
     .mainIndex {
         .encabezadoIndex {
             height: $valor-85vh;
-            background-image: url(../assets/image/patagonia-04.jpg);
+            background-image: $background-img-index;
             background-size: $background-cover;
             background-position: $background-bottom;
 

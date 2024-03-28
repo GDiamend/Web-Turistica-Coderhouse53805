@@ -4,14 +4,14 @@
     .mainDestination {
         .encabezadoDestination {
             height: $valor-60vh;
-            background-image: url(../assets/image/bariloche-06.jpg);
+            background-image: $background-img-destination;
             background-size: $background-cover;
             background-position: $background-center;
         }
 
         .h2MainDestination {
             font-family: $font-secundaria;
-            background-image: url(../assets/image/bandera.png);
+            background-image: $background-img-bandera;
             background-size: $background-contain;
         }
     }
