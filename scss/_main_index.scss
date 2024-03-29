@@ -10,8 +10,8 @@
         }
 
         .h2MainIndex {
-            color: $color-blanco;
-            text-shadow: $valor-2px $valor-2px $valor-2px $color-negro;
+            color: map-get($colores, color-blanco);
+            text-shadow: $valor-2px $valor-2px $valor-2px map-get($colores, color-negro);
         }
 
         @media screen and (max-width: $valor-768px) {

@@ -1,0 +1,13 @@
+/*Contacto*/
+
+.mainContacto {
+    .widthFormContacto {
+        width: $valor-450px;
+    }
+
+    @media screen and (max-width: $valor-768px) {
+        .widthFormContacto {
+            width: $valor-100p;
+        }
+    }
+}

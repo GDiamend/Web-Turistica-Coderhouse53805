@@ -1,0 +1,16 @@
+/*Destinos*/
+
+.mainDestinos {
+    .encabezadoDestinos {
+        height: $valor-60vh;
+        background-image: $background-img-destinos;
+        background-size: $background-cover;
+        background-position: $background-center;
+    }
+
+    .h2MainDestinos {
+        font-family: $font-secundaria;
+        background-image: $background-img-bandera;
+        background-size: $background-contain;
+    }
+}

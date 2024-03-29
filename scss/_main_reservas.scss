@@ -1,0 +1,15 @@
+/*Reservas*/
+
+.mainReservas {
+    .encabezadoReservas {
+        height: $valor-40vh;
+        background-image: $background-img-reservas;
+        background-size: $background-cover;
+    }
+
+    @media screen and (max-width: $valor-768px) {
+        .encabezadoReservas {
+            height: $valor-20vh;
+        }
+    }
+}

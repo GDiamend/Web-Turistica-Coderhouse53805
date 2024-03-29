@@ -1,0 +1,18 @@
+@mixin asignarImgBg($bgImg, $bgSize){
+    background-image: $bgImg;
+    background-size: $bgSize;
+}
+
+@mixin asignarObjFit($objFit){
+    object-fit: $objFit;
+}
+
+@mixin asignarClrBtn($color, $bgColor, $borderColor){
+    color: $color;
+    background-color: $bgColor;
+    border-color: $borderColor;
+}
+
+@mixin asignarWidth($width){
+    width: $width;
+}

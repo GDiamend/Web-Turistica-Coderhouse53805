@@ -62,7 +62,7 @@ h3 {
   border-color: rgb(230, 170, 102);
 }
 .btnColor:hover {
-  color: rgb(243, 240, 240);
+  color: rgb(15, 14, 14);
   background-color: rgb(196, 108, 8);
   border-color: rgb(196, 108, 8);
 }
@@ -111,36 +111,36 @@ footer {
 }
 
 /*Destinos*/
-.bodyDestinos .mainDestinos .encabezadoDestinos {
+.mainDestinos .encabezadoDestinos {
   height: 60vh;
   background-image: url(../assets/imagenes/bariloche-06.jpg);
   background-size: cover;
   background-position: center;
 }
-.bodyDestinos .mainDestinos .h2MainDestinos {
+.mainDestinos .h2MainDestinos {
   font-family: "Milonga", serif;
   background-image: url(../assets/imagenes/bandera.png);
   background-size: contain;
 }
 
-/*Booking*/
-.bodyReservas .mainReservas .encabezadoReservas {
+/*Reservas*/
+.mainReservas .encabezadoReservas {
   height: 40vh;
   background-image: url(../assets/imagenes/aeropuerto.jpg);
   background-size: cover;
 }
 @media screen and (max-width: 768px) {
-  .bodyReservas .mainReservas .encabezadoReservas {
+  .mainReservas .encabezadoReservas {
     height: 20vh;
   }
 }
 
-/*Contact*/
-.bodyContacto .mainContacto .widthFormContacto {
+/*Contacto*/
+.mainContacto .widthFormContacto {
   width: 450px;
 }
 @media screen and (max-width: 768px) {
-  .bodyContacto .mainContacto .widthFormContacto {
+  .mainContacto .widthFormContacto {
     width: 100%;
   }
 }
