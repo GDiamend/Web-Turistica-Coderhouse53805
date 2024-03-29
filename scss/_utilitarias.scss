@@ -31,17 +31,8 @@ body {
 
 
 h1 {
-    font-size: $valor-fs-6rem;
     text-shadow: $valor-2px $valor-2px $valor-2px $color-negro;
     color: $color-blanco;
-    font-weight: $valor-fw-900;
-}
-
-@media screen and (max-width: $valor-768px) {
-    h1 {
-        padding-top: $valor-100px !important;
-        font-size: $valor-fs-3rem;
-    }
 }
 
 h3 {
@@ -53,16 +44,29 @@ h3 {
     background-size: $background-contain;
 }
 
+.m-6 {
+    margin: 5rem;
+}
+
+@media screen and (max-width: $valor-768px) {
+    .m-6 {
+        margin: 2rem;
+    }
+}
+
+.objectFC {
+    object-fit: $object-cover;
+}
 
 .btnColor {
-    color: $color-blanco;
-    background-color: $color-celeste;
-    border-color: $color-celeste;
+    color: $color-negro;
+    background-color: $color-boton;
+    border-color: $color-boton;
 
     &:hover {
         color: $color-blanco;
-        background-color: $color-azul;
-        border-color: $color-azul;
+        background-color: $color-boton-hover;
+        border-color: $color-boton-hover;
     }
 }
 

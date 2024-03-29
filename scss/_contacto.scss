@@ -1,13 +1,13 @@
 /*Contact*/
 
-.bodyContact {
-    .mainContact {
-        .widthFormContact {
+.bodyContacto {
+    .mainContacto {
+        .widthFormContacto {
             width: $valor-450px;
         }
 
         @media screen and (max-width: $valor-768px) {
-            .widthFormContact {
+            .widthFormContacto {
                 width: $valor-100p;
             }
         }

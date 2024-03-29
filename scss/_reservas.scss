@@ -1,15 +1,15 @@
 /*Booking*/
 
-.bodyBooking {
-    .mainBooking {
-        .encabezadoBooking {
+.bodyReservas {
+    .mainReservas {
+        .encabezadoReservas {
             height: $valor-40vh;
-            background-image: $background-img-booking;
+            background-image: $background-img-reservas;
             background-size: $background-cover;
         }
 
         @media screen and (max-width: $valor-768px) {
-            .encabezadoBooking {
+            .encabezadoReservas {
                 height: $valor-20vh;
             }
         }

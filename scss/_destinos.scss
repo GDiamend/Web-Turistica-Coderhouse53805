@@ -1,15 +1,15 @@
-/*Destination*/
+/*Destinos*/
 
-.bodyDestination {
-    .mainDestination {
-        .encabezadoDestination {
+.bodyDestinos {
+    .mainDestinos {
+        .encabezadoDestinos {
             height: $valor-60vh;
-            background-image: $background-img-destination;
+            background-image: $background-img-destinos;
             background-size: $background-cover;
             background-position: $background-center;
         }
 
-        .h2MainDestination {
+        .h2MainDestinos {
             font-family: $font-secundaria;
             background-image: $background-img-bandera;
             background-size: $background-contain;

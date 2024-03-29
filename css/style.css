@@ -30,18 +30,10 @@ body .bgNavegacion .navbar-nav .nav-link:hover {
 }
 
 h1 {
-  font-size: 6rem;
   text-shadow: 2px 2px 2px rgb(15, 14, 14);
   color: rgb(243, 240, 240);
-  font-weight: 900;
 }
 
-@media screen and (max-width: 768px) {
-  h1 {
-    padding-top: 100px !important;
-    font-size: 3rem;
-  }
-}
 h3 {
   font-family: "Milonga", serif;
 }
@@ -51,15 +43,28 @@ h3 {
   background-size: contain;
 }
 
+.m-6 {
+  margin: 5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .m-6 {
+    margin: 2rem;
+  }
+}
+.objectFC {
+  object-fit: cover;
+}
+
 .btnColor {
-  color: rgb(243, 240, 240);
-  background-color: rgba(0, 195, 255, 0.882);
-  border-color: rgba(0, 195, 255, 0.882);
+  color: rgb(15, 14, 14);
+  background-color: rgb(230, 170, 102);
+  border-color: rgb(230, 170, 102);
 }
 .btnColor:hover {
   color: rgb(243, 240, 240);
-  background-color: rgb(11, 80, 184);
-  border-color: rgb(11, 80, 184);
+  background-color: rgb(196, 108, 8);
+  border-color: rgb(196, 108, 8);
 }
 
 .widthForm {
@@ -76,67 +81,66 @@ footer {
   color: rgb(243, 240, 240);
 }
 
-/*Index*/
-.bodyIndex .mainIndex .encabezadoIndex {
+.mainIndex .encabezadoIndex {
   height: 85vh;
-  background-image: url(../assets/image/patagonia-04.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4392156863), rgba(0, 0, 0, 0.4392156863)), url(../assets/image/patagonia-04.jpg);
   background-size: cover;
   background-position: bottom;
 }
-.bodyIndex .mainIndex .encabezadoIndex .h1MainIndex {
+.mainIndex .encabezadoIndex .h1MainIndex {
   padding-top: 200px;
 }
-.bodyIndex .mainIndex .encabezadoIndex .h2MainIndex {
+.mainIndex .encabezadoIndex .h2MainIndex {
   color: rgb(243, 240, 240);
   text-shadow: 2px 2px 2px rgb(15, 14, 14);
 }
 @media screen and (max-width: 768px) {
-  .bodyIndex .mainIndex .encabezadoIndex .h2MainIndex {
+  .mainIndex .encabezadoIndex .h2MainIndex {
     font-size: 2rem;
   }
 }
-.bodyIndex .mainIndex .videoQuery {
-  width: 1200;
-  height: 600px;
+.mainIndex .videoQuery {
+  width: 900px;
+  height: 500px;
 }
 @media screen and (max-width: 768px) {
-  .bodyIndex .mainIndex .videoQuery {
+  .mainIndex .videoQuery {
     width: 100%;
     height: 100%;
   }
 }
 
-/*Destination*/
-.bodyDestination .mainDestination .encabezadoDestination {
+/*Destinos*/
+.bodyDestinos .mainDestinos .encabezadoDestinos {
   height: 60vh;
   background-image: url(../assets/image/bariloche-06.jpg);
   background-size: cover;
   background-position: center;
 }
-.bodyDestination .mainDestination .h2MainDestination {
+.bodyDestinos .mainDestinos .h2MainDestinos {
   font-family: "Milonga", serif;
   background-image: url(../assets/image/bandera.png);
   background-size: contain;
 }
 
 /*Booking*/
-.bodyBooking .mainBooking .encabezadoBooking {
+.bodyReservas .mainReservas .encabezadoReservas {
   height: 40vh;
   background-image: url(../assets/image/aeropuerto.jpg);
   background-size: cover;
 }
 @media screen and (max-width: 768px) {
-  .bodyBooking .mainBooking .encabezadoBooking {
+  .bodyReservas .mainReservas .encabezadoReservas {
     height: 20vh;
   }
 }
 
 /*Contact*/
-.bodyContact .mainContact .widthFormContact {
+.bodyContacto .mainContacto .widthFormContacto {
   width: 450px;
 }
 @media screen and (max-width: 768px) {
-  .bodyContact .mainContact .widthFormContact {
+  .bodyContacto .mainContacto .widthFormContacto {
     width: 100%;
   }
 }
