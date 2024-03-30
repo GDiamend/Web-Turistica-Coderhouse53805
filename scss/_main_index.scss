@@ -1,3 +1,4 @@
+/*Index*/
 .mainIndex {
     .encabezadoIndex {
         height: $valor-85vh;
@@ -31,5 +32,9 @@
             width: $valor-100p;
             height: $valor-100p;
         }
+    }
+
+    .widthCard{
+        @include asignarWidth(18rem);
     }
 }
