@@ -1,13 +1,27 @@
 $font-principal: 'Poppins', sans-serif;
 $font-secundaria: 'Milonga', serif;
 
-$valor-minimo: 0;
+$valor-0: 0;
+$valor-0-6: 0.6;
+$valor-1: 1;
+$valor-1-2: 1.2;
+$valor-0-6s: 0.6s;
+$valor-0s: 0s;
+$valor-1s: 1s;
+$valor-15s: 1.5s;
+$valor-2s: 2s;
+$valor-3s: 3s;
+$valor--20px: -20px;
+$valor-0px: 0px;
 $valor-2px: 2px;
+$valor-4px: 4px;
+$valor-50px: 50px;
 $valor-100px: 100px;
 $valor-150px: 150px;
 $valor-200px: 200px;
 $valor-450px: 450px;
 $valor-500px: 500px;
+$valor-600px: 600px;
 $valor-768px: 768px;
 $valor-900px: 900px;
 $valor-20vh: 20vh;
@@ -18,11 +32,13 @@ $valor-100p: 100%;
 $valor-fs-08rem: .8rem;
 $valor-fs-2rem: 2rem;
 $valor-fs-3rem: 3rem;
+$valor-fs-5rem: 5rem;
 $valor-fs-6rem: 6rem;
 
 $colores: (
     color-blanco: rgb(243, 240, 240),
     color-negro: rgb(15, 14, 14),
+    color-celeste: rgb(123, 160, 216),
     color-azul: rgb(11, 80, 184),
     color-boton: rgb(230, 170, 102),
     color-boton-hover: rgb(196, 108, 8),

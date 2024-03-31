@@ -1,12 +1,17 @@
 /*Index*/
 .mainIndex {
     .encabezadoIndex {
-        height: $valor-60vh;
+        height: 80vh;
         @include asignarImgBg($background-img-index, $background-cover);
         background-position: $background-center;
 
         .h1MainIndex {
             padding-top: $valor-200px;
+        }
+        @media screen and (max-height: $valor-600px) {
+            .h1MainIndex {
+                padding-top: $valor-50px;
+            }
         }
 
         .h2MainIndex {

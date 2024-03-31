@@ -1,4 +1,18 @@
 * {
-    margin: $valor-minimo;
-    padding: $valor-minimo;
+    margin: $valor-0;
+    padding: $valor-0;
+}
+
+@keyframes flotar {
+    0% {
+        transform: translateY($valor-0px);
+    }
+
+    50% {
+        transform: translateY($valor--20px);
+    }
+
+    100% {
+        transform: translateY($valor-0px);
+    }
 }

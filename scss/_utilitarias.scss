@@ -9,12 +9,37 @@ body {
         background-image: $background-img-utilitarian;
         background-size: $background-contain;
 
-        .navbar-nav .nav-link {
-            color: map-get($colores, color-negro);
+        .navbar-nav {
+            .nav-link {
+                color: map-get($colores, color-negro);
 
-            &:hover {
-                color: map-get($colores, color-azul);
+                &:hover {
+                    color: map-get($colores, color-azul);
+                }
             }
+        }
+
+        .subrayado {
+            display: inline-block;
+            position: relative;
+        }
+
+        .subrayado::after {
+            content: '';
+            position: absolute;
+            width: $valor-100p;
+            height: $valor-4px;
+            bottom: $valor-0;
+            left: $valor-0;
+            background-color: map-get($colores, color-azul);
+            transform: scalex($valor-0);
+            transform-origin: bottom right;
+            transition: transform $valor-0-6s ease-out;
+        }
+
+        .subrayado:hover::after {
+            transform: scaleX($valor-1);
+            transform-origin: bottom left;
         }
     }
 
@@ -43,13 +68,26 @@ h3 {
     @include asignarImgBg($background-img-fondo, $background-contain);
 }
 
+.box {
+    overflow: hidden;
+
+    .imgTransition {
+        transition: transform $valor-0-6s ease-in;
+
+        &:hover {
+            transform: scale($valor-1-2);
+        }
+    }
+}
+
+
 .m-6 {
-    margin: 5rem;
+    margin: $valor-fs-5rem;
 }
 
 @media screen and (max-width: $valor-768px) {
     .m-6 {
-        margin: 2rem;
+        margin: $valor-fs-2rem;
     }
 }
 
@@ -58,11 +96,14 @@ h3 {
 }
 
 .btnColor {
-    @include asignarClrBtn(map-get($colores, color-negro),map-get($colores, color-boton), map-get($colores, color-boton));
+    @include asignarClrBtn(map-get($colores, color-negro), map-get($colores, color-boton), map-get($colores, color-boton));
 
     &:hover {
         @include asignarClrBtn(map-get($colores, color-negro), map-get($colores, color-boton-hover), map-get($colores, color-boton-hover));
     }
+}
+.animate__pulse{
+    animation-iteration-count: infinite;
 }
 
 .widthForm {
@@ -78,4 +119,19 @@ h3 {
 footer {
     background-color: map-get($colores, color-negro);
     color: map-get($colores, color-blanco);
+    .fa-instagram{
+        animation-delay: $valor-0s;
+    }
+    .fa-twitter{
+        animation-delay: $valor-1s;
+    }
+    .fa-facebook{
+        animation-delay: $valor-2s;
+    }
+    .logoAnimado{
+        animation-name: flotar;
+        animation-duration: $valor-3s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
 }
