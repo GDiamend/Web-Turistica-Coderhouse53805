@@ -11,7 +11,7 @@ body {
   background-color: rgb(243, 240, 240);
 }
 body .bgNavegacion {
-  background-image: url(../assets/imagenes/bandera.png);
+  background-image: url(../assets/imagenes/bandera.webp);
   background-size: contain;
 }
 body .bgNavegacion .navbar-nav .nav-link {
@@ -83,10 +83,10 @@ footer {
 
 /*Index*/
 .mainIndex .encabezadoIndex {
-  height: 85vh;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4392156863), rgba(0, 0, 0, 0.4392156863)), url(../assets/imagenes/patagonia-04.jpg);
+  height: 60vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4392156863), rgba(0, 0, 0, 0.4392156863)), url(../assets/imagenes/patagonia-04.webp);
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
 }
 .mainIndex .encabezadoIndex .h1MainIndex {
   padding-top: 200px;
@@ -117,13 +117,13 @@ footer {
 /*Destinos*/
 .mainDestinos .encabezadoDestinos {
   height: 60vh;
-  background-image: url(../assets/imagenes/bariloche-06.jpg);
+  background-image: url(../assets/imagenes/bariloche-02.webp);
   background-size: cover;
   background-position: center;
 }
 .mainDestinos .h2MainDestinos {
   font-family: "Milonga", serif;
-  background-image: url(../assets/imagenes/bandera.png);
+  background-image: url(../assets/imagenes/bandera.webp);
   background-size: contain;
 }
 

@@ -1,10 +1,9 @@
 /*Index*/
 .mainIndex {
     .encabezadoIndex {
-        height: $valor-85vh;
-        background-image: $background-img-index;
-        background-size: $background-cover;
-        background-position: $background-bottom;
+        height: $valor-60vh;
+        @include asignarImgBg($background-img-index, $background-cover);
+        background-position: $background-center;
 
         .h1MainIndex {
             padding-top: $valor-200px;
