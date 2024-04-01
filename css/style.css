@@ -15,7 +15,7 @@
   }
 }
 body {
-  background-image: url(../assets/imagenes/fondo-beige-03.jpg);
+  background-image: url(../assets/imagenes/fondo-beige.webp);
   background-size: cover;
   font-family: "Poppins", sans-serif;
   color: rgb(15, 14, 14);
@@ -70,7 +70,7 @@ h3 {
 }
 
 .imgBg {
-  background-image: url(../assets/imagenes/fondo-beige-03.jpg);
+  background-image: url(../assets/imagenes/fondo-beige.webp);
   background-size: contain;
 }
 
@@ -195,7 +195,7 @@ footer .logoAnimado {
 /*Reservas*/
 .mainReservas .encabezadoReservas {
   height: 40vh;
-  background-image: url(../assets/imagenes/aeropuerto.jpg);
+  background-image: url(../assets/imagenes/aeropuerto.webp);
   background-size: cover;
 }
 @media screen and (max-width: 768px) {
