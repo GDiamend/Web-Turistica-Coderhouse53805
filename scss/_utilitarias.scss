@@ -1,13 +1,13 @@
 body {
     background-image: $background-img-fondo;
-    background-size: $background-cover;
+    background-size: cover;
     font-family: $font-principal;
     color: map-get($colores, color-negro);
     background-color: map-get($colores, color-blanco);
 
     .bgNavegacion {
         background-image: $background-img-utilitarian;
-        background-size: $background-contain;
+        background-size: contain;
 
         .navbar-nav {
             .nav-link {
@@ -45,7 +45,7 @@ body {
 
     @media screen and (max-width: $valor-768px) {
         .bgNavegacion {
-            background-size: $background-cover;
+            background-size: cover;
 
             .textSize {
                 font-size: $valor-fs-08rem;
@@ -65,7 +65,7 @@ h3 {
 }
 
 .imgBg {
-    @include asignarImgBg($background-img-fondo, $background-contain);
+    @include asignarImgBg($background-img-fondo, contain);
 }
 
 .box {
@@ -92,7 +92,7 @@ h3 {
 }
 
 .objectFC {
-    @include asignarObjFit($object-cover);
+    @include asignarObjFit(cover);
 }
 
 .btnColor {

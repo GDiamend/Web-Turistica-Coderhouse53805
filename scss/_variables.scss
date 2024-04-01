@@ -34,6 +34,7 @@ $valor-fs-2rem: 2rem;
 $valor-fs-3rem: 3rem;
 $valor-fs-5rem: 5rem;
 $valor-fs-6rem: 6rem;
+$valor-fs-18rem: 18rem;
 
 $colores: (
     color-blanco: rgb(243, 240, 240),
@@ -45,11 +46,6 @@ $colores: (
     color-transparente: #00000070
 );
 
-$object-cover :cover;
-$background-cover: cover;
-$background-contain: contain;
-$background-center: center;
-$background-bottom: bottom;
 $background-img-bandera: url(../assets/imagenes/bandera.webp);
 $background-img-fondo: url(../assets/imagenes/fondo-beige.webp);
 $background-img-index: linear-gradient(to bottom, map-get($colores, color-transparente), map-get($colores, color-transparente)), url(../assets/imagenes/patagonia-04.webp);

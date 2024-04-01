@@ -2,8 +2,8 @@
 .mainIndex {
     .encabezadoIndex {
         height: 80vh;
-        @include asignarImgBg($background-img-index, $background-cover);
-        background-position: $background-center;
+        @include asignarImgBg($background-img-index, cover);
+        background-position: center;
 
         .h1MainIndex {
             padding-top: $valor-200px;
@@ -39,6 +39,6 @@
     }
 
     .widthCard{
-        @include asignarWidth(18rem);
+        @include asignarWidth($valor-fs-18rem);
     }
 }
