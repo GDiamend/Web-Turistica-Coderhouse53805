@@ -8,22 +8,26 @@
         .h1MainIndex {
             padding-top: $valor-200px;
         }
-        @media screen and (max-height: $valor-600px) {
-            .h1MainIndex {
-                padding-top: $valor-50px;
-            }
-        }
 
         .h2MainIndex {
             color: map-get($colores, color-blanco);
             text-shadow: $valor-2px $valor-2px $valor-2px map-get($colores, color-negro);
         }
+    }
 
-        @media screen and (max-width: $valor-768px) {
-            .h2MainIndex {
-                font-size: $valor-fs-2rem;
-            }
+    @media screen and (max-width: $valor-768px) {
+        .encabezadoIndex {
+            @include asignarImgBg($background-img-index-mobile, cover);
         }
+
+        .h1MainIndex {
+            padding-top: $valor-50px;
+        }
+
+        .h2MainIndex {
+            font-size: $valor-fs-2rem;
+        }
+
     }
 
     .videoQuery {
@@ -38,7 +42,7 @@
         }
     }
 
-    .widthCard{
+    .widthCard {
         @include asignarWidth($valor-fs-18rem);
     }
 }

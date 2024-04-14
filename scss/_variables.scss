@@ -25,7 +25,7 @@ $valor-600px: 600px;
 $valor-768px: 768px;
 $valor-900px: 900px;
 $valor-20vh: 20vh;
-$valor-40vh: 40vh;
+$valor-50vh: 50vh;
 $valor-60vh: 60vh;
 $valor-25p: 25%;
 $valor-100p: 100%;
@@ -47,8 +47,14 @@ $colores: (
 );
 
 $background-img-bandera: url(../assets/imagenes/bandera.webp);
+$background-img-bandera-mobile: url(../assets/imagenes/bandera-mobile.webp);
 $background-img-fondo: url(../assets/imagenes/fondo-beige.webp);
-$background-img-index: linear-gradient(to bottom, map-get($colores, color-transparente), map-get($colores, color-transparente)), url(../assets/imagenes/patagonia-04.webp);
+$background-img-fondo-mobile: url(../assets/imagenes/fondo-beige-mobile.webp);
+$background-img-index: linear-gradient(to bottom, map-get($colores, color-transparente), map-get($colores, color-transparente)), url(../assets/imagenes/patagonia-02.webp);
+$background-img-index-mobile: linear-gradient(to bottom, map-get($colores, color-transparente), map-get($colores, color-transparente)), url(../assets/imagenes/patagonia-02-mobile.webp);
 $background-img-reservas: url(../assets/imagenes/aeropuerto.webp);
+$background-img-reservas-mobile: url(../assets/imagenes/aeropuerto-mobile.webp);
 $background-img-destinos: url(../assets/imagenes/bariloche-02.webp);
-$background-img-utilitarian: url(../assets/imagenes/bandera.webp);
+$background-img-destinos-mobile :url(../assets/imagenes/bariloche-02-mobile.webp);
+$background-img-nosotros: url(../assets/imagenes/pluma-papel.webp);
+$background-img-nosotros-mobile: url(../assets/imagenes/pluma-papel-mobile.webp);

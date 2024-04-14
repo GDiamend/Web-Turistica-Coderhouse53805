@@ -3,14 +3,18 @@
 .mainDestinos {
     .encabezadoDestinos {
         height: $valor-60vh;
-        background-image: $background-img-destinos;
-        background-size: cover;
+        @include asignarImgBg($background-img-destinos, cover);
         background-position: center;
+    }
+
+    @media screen and (max-width: $valor-768px) {
+        .encabezadoDestinos {
+            @include asignarImgBg($background-img-destinos-mobile, cover);
+        }
     }
 
     .h2MainDestinos {
         font-family: $font-secundaria;
-        background-image: $background-img-bandera;
-        background-size: contain;
+        @include asignarImgBg($background-img-bandera, contain);
     }
 }

@@ -1,13 +1,11 @@
 body {
-    background-image: $background-img-fondo;
-    background-size: cover;
+    @include asignarImgBg($background-img-fondo, cover);
     font-family: $font-principal;
     color: map-get($colores, color-negro);
     background-color: map-get($colores, color-blanco);
 
     .bgNavegacion {
-        background-image: $background-img-utilitarian;
-        background-size: contain;
+        @include asignarImgBg($background-img-bandera, contain);
 
         .navbar-nav {
             .nav-link {
@@ -42,10 +40,14 @@ body {
             transform-origin: bottom left;
         }
     }
+}
 
-    @media screen and (max-width: $valor-768px) {
+@media screen and (max-width: $valor-768px) {
+    body {
+        @include asignarImgBg($background-img-fondo-mobile, cover);
+
         .bgNavegacion {
-            background-size: cover;
+            @include asignarImgBg($background-img-bandera-mobile, cover);
 
             .textSize {
                 font-size: $valor-fs-08rem;
@@ -68,18 +70,11 @@ h3 {
     @include asignarImgBg($background-img-fondo, contain);
 }
 
-.box {
-    overflow: hidden;
-
-    .imgTransition {
-        transition: transform $valor-0-6s ease-in;
-
-        &:hover {
-            transform: scale($valor-1-2);
-        }
+@media screen and (max-width: $valor-768px) {
+    .imgBg {
+        @include asignarImgBg($background-img-fondo-mobile, cover);
     }
 }
-
 
 .m-6 {
     margin: $valor-fs-5rem;
@@ -88,6 +83,26 @@ h3 {
 @media screen and (max-width: $valor-768px) {
     .m-6 {
         margin: $valor-fs-2rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .onlyMobile {
+        display: block;
+    }
+
+    .onlyDesktop {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .onlyMobile {
+        display: none;
+    }
+
+    .onlyDesktop {
+        display: block;
     }
 }
 
@@ -102,7 +117,8 @@ h3 {
         @include asignarClrBtn(map-get($colores, color-negro), map-get($colores, color-boton-hover), map-get($colores, color-boton-hover));
     }
 }
-.animate__pulse{
+
+.animate__pulse {
     animation-iteration-count: infinite;
 }
 
@@ -119,16 +135,20 @@ h3 {
 footer {
     background-color: map-get($colores, color-negro);
     color: map-get($colores, color-blanco);
-    .fa-instagram{
+
+    .fa-instagram {
         animation-delay: $valor-0s;
     }
-    .fa-twitter{
+
+    .fa-twitter {
         animation-delay: $valor-1s;
     }
-    .fa-facebook{
+
+    .fa-facebook {
         animation-delay: $valor-2s;
     }
-    .logoAnimado{
+
+    .logoAnimado {
         animation-name: flotar;
         animation-duration: $valor-3s;
         animation-iteration-count: infinite;

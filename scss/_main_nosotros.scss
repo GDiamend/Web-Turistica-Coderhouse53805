@@ -1,0 +1,15 @@
+/*Nosotros*/
+
+.mainNosotros {
+    .encabezadoNosotros {
+        @include asignarImgBg($background-img-nosotros, cover);
+        background-position: center;
+        height: $valor-50vh;
+    }
+
+    @media screen and (max-width: $valor-768px) {
+        .encabezadoNosotros {
+            @include asignarImgBg($background-img-nosotros-mobile, cover);
+        }
+    }
+}

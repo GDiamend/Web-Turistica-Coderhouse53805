@@ -51,15 +51,20 @@ body .bgNavegacion .subrayado:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+
 @media screen and (max-width: 768px) {
+  body {
+    background-image: url(../assets/imagenes/fondo-beige-mobile.webp);
+    background-size: cover;
+  }
   body .bgNavegacion {
+    background-image: url(../assets/imagenes/bandera-mobile.webp);
     background-size: cover;
   }
   body .bgNavegacion .textSize {
     font-size: 0.8rem;
   }
 }
-
 h1 {
   text-shadow: 2px 2px 2px rgb(15, 14, 14);
   color: rgb(243, 240, 240);
@@ -74,16 +79,12 @@ h3 {
   background-size: contain;
 }
 
-.box {
-  overflow: hidden;
+@media screen and (max-width: 768px) {
+  .imgBg {
+    background-image: url(../assets/imagenes/fondo-beige-mobile.webp);
+    background-size: cover;
+  }
 }
-.box .imgTransition {
-  transition: transform 0.6s ease-in;
-}
-.box .imgTransition:hover {
-  transform: scale(1.2);
-}
-
 .m-6 {
   margin: 5rem;
 }
@@ -91,6 +92,22 @@ h3 {
 @media screen and (max-width: 768px) {
   .m-6 {
     margin: 2rem;
+  }
+}
+@media (max-width: 767px) {
+  .onlyMobile {
+    display: block;
+  }
+  .onlyDesktop {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .onlyMobile {
+    display: none;
+  }
+  .onlyDesktop {
+    display: block;
   }
 }
 .objectFC {
@@ -144,24 +161,26 @@ footer .logoAnimado {
 /*Index*/
 .mainIndex .encabezadoIndex {
   height: 80vh;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4392156863), rgba(0, 0, 0, 0.4392156863)), url(../assets/imagenes/patagonia-04.webp);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4392156863), rgba(0, 0, 0, 0.4392156863)), url(../assets/imagenes/patagonia-02.webp);
   background-size: cover;
   background-position: center;
 }
 .mainIndex .encabezadoIndex .h1MainIndex {
   padding-top: 200px;
 }
-@media screen and (max-height: 600px) {
-  .mainIndex .encabezadoIndex .h1MainIndex {
-    padding-top: 50px;
-  }
-}
 .mainIndex .encabezadoIndex .h2MainIndex {
   color: rgb(243, 240, 240);
   text-shadow: 2px 2px 2px rgb(15, 14, 14);
 }
 @media screen and (max-width: 768px) {
-  .mainIndex .encabezadoIndex .h2MainIndex {
+  .mainIndex .encabezadoIndex {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4392156863), rgba(0, 0, 0, 0.4392156863)), url(../assets/imagenes/patagonia-02-mobile.webp);
+    background-size: cover;
+  }
+  .mainIndex .h1MainIndex {
+    padding-top: 50px;
+  }
+  .mainIndex .h2MainIndex {
     font-size: 2rem;
   }
 }
@@ -186,6 +205,12 @@ footer .logoAnimado {
   background-size: cover;
   background-position: center;
 }
+@media screen and (max-width: 768px) {
+  .mainDestinos .encabezadoDestinos {
+    background-image: url(../assets/imagenes/bariloche-02-mobile.webp);
+    background-size: cover;
+  }
+}
 .mainDestinos .h2MainDestinos {
   font-family: "Milonga", serif;
   background-image: url(../assets/imagenes/bandera.webp);
@@ -194,13 +219,15 @@ footer .logoAnimado {
 
 /*Reservas*/
 .mainReservas .encabezadoReservas {
-  height: 40vh;
+  height: 50vh;
   background-image: url(../assets/imagenes/aeropuerto.webp);
   background-size: cover;
 }
 @media screen and (max-width: 768px) {
   .mainReservas .encabezadoReservas {
     height: 20vh;
+    background-image: url(../assets/imagenes/aeropuerto-mobile.webp);
+    background-size: cover;
   }
 }
 
@@ -211,6 +238,20 @@ footer .logoAnimado {
 @media screen and (max-width: 768px) {
   .mainContacto .widthFormContacto {
     width: 100%;
+  }
+}
+
+/*Nosotros*/
+.mainNosotros .encabezadoNosotros {
+  background-image: url(../assets/imagenes/pluma-papel.webp);
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
+@media screen and (max-width: 768px) {
+  .mainNosotros .encabezadoNosotros {
+    background-image: url(../assets/imagenes/pluma-papel-mobile.webp);
+    background-size: cover;
   }
 }
 
