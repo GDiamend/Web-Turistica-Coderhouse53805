@@ -233,12 +233,14 @@ footer .logoAnimado {
 
 /*Contacto*/
 .mainContacto .widthFormContacto {
-  width: 450px;
+  width: 100%;
 }
-@media screen and (max-width: 768px) {
-  .mainContacto .widthFormContacto {
-    width: 100%;
-  }
+.mainContacto .form-thumbnail {
+  padding: 0.8rem;
+  border: 2px solid rgb(15, 14, 14);
+  border-radius: 0.8rem;
+  max-width: 100%;
+  height: auto;
 }
 
 /*Nosotros*/

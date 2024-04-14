@@ -2,12 +2,13 @@
 
 .mainContacto {
     .widthFormContacto {
-        width: $valor-450px;
+        width: $valor-100p;
     }
-
-    @media screen and (max-width: $valor-768px) {
-        .widthFormContacto {
-            width: $valor-100p;
-        }
-    }
+    .form-thumbnail {
+        padding: $valor-fs-08rem;
+        border: $valor-2px solid map-get($colores, color-negro);
+        border-radius: $valor-fs-08rem;
+        max-width: $valor-100p;
+        height: auto;
+      }
 }
