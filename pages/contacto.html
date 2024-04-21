@@ -52,7 +52,7 @@
     </header>
     <main class="mainContacto">
         <div>
-            <section>
+            <section class="encabezadoContacto">
                 <h1 class="pt-5 display-3 text-center">
                     Contactanos en un click!
                 </h1>
@@ -95,46 +95,55 @@
                         width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-                <div class="col-12 col-md-3 order-0 order-md-1 form-thumbnail imgBg">
-                    <form action="./404.html">
-                        <div class="row g-0 mb-3 align-items-baseline justify-content-start">
-                            <div class="col-auto widthForm">
-                                <label for="inputNombre" class="col-form-label">Nombre</label>
+                <div class="col-12 col-md-6 order-0 order-md-1 justify-content-center">
+                    <div class="form-thumbnail imgBg widthFormContacto">
+                        <form action="./404.html">
+                            <div class="text-center">
+                                <div class="row g-0 mb-3 align-items-baseline justify-content-start">
+                                    <div class="col-auto widthForm">
+                                        <label for="inputNombre" class="col-form-label">Nombre</label>
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" id="inputNombre" class="form-control"
+                                            placeholder="Escriba su nombre" required>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-6 col-md-4">
-                                <input type="text" id="inputNombre" class="form-control" placeholder="Escriba su nombre"
-                                    required>
+
+                            <div class="text-center">
+                                <div class="row g-0 mb-3 align-items-baseline justify-content-start">
+                                    <div class="col-auto widthForm">
+                                        <label for="inputMail" class="col-form-label">E-mail</label>
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="email" id="inputMail" class="form-control"
+                                            placeholder="correo@ejemplo.com" required>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="row g-0 mb-3 align-items-baseline justify-content-start">
-                            <div class="col-auto widthForm">
-                                <label for="inputMail" class="col-form-label">E-mail</label>
+                            <div class="text-center">
+                                <div class="form-floating ms-2 mb-3">
+                                    <textarea class="form-control h-100" placeholder="Deje su comentario aquí"
+                                        id="comentarioContact"></textarea>
+                                    <label for="comentarioContact">Deje su comentario aquí</label>
+                                </div>
                             </div>
-                            <div class="col-6 col-md-4">
-                                <input type="email" id="inputMail" class="form-control" placeholder="correo@ejemplo.com"
-                                    required>
+
+                            <div class="form-check mb-3">
+                                <input class="form-check-input ms-5" type="checkbox" value="" id="flexCheckChecked"
+                                    checked>
+                                <label class="form-check-label ms-1" for="flexCheckChecked">
+                                    Recibir promociones vía mail
+                                </label>
                             </div>
-                        </div>
 
-                        <div class="form-floating mb-3">
-                            <textarea class="form-control h-100 widthFormContacto" placeholder="Deje su comentario aquí"
-                                id="comentarioContact"></textarea>
-                            <label for="comentarioContact">Deje su comentario aquí</label>
-                        </div>
-
-                        <div class="form-check mb-3">
-                            <input class="form-check-input ms-5" type="checkbox" value="" id="flexCheckChecked" checked>
-                            <label class="form-check-label ms-1" for="flexCheckChecked">
-                                Recibir promociones vía mail
-                            </label>
-                        </div>
-
-                        <div class="widthFormContacto mb-3 text-center">
-                            <input type="submit" class="btn btnColor animate__animated animate__pulse" value="Enviar">
-                        </div>
-
-                    </form>
+                            <div class="widthFormContacto mb-3 text-center">
+                                <input type="submit" class="btn btnColor animate__animated animate__pulse"
+                                    value="Enviar">
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </section>
         </div>

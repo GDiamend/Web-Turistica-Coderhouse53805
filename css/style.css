@@ -1,3 +1,8 @@
+/*segundos*/
+/*pixeles*/
+/*viewport height*/
+/*porcentajes*/
+/*rem*/
 * {
   margin: 0;
   padding: 0;
@@ -14,6 +19,26 @@
     transform: translateY(0px);
   }
 }
+footer {
+  background-color: rgb(15, 14, 14);
+  color: rgb(243, 240, 240);
+}
+footer .fa-instagram {
+  animation-delay: 0s;
+}
+footer .fa-twitter {
+  animation-delay: 1s;
+}
+footer .fa-facebook {
+  animation-delay: 2s;
+}
+footer .logoAnimado {
+  animation-name: flotar;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
 body {
   background-image: url(../assets/imagenes/fondo-beige.webp);
   background-size: cover;
@@ -85,15 +110,6 @@ h3 {
     background-size: cover;
   }
 }
-.m-6 {
-  margin: 5rem;
-}
-
-@media screen and (max-width: 768px) {
-  .m-6 {
-    margin: 2rem;
-  }
-}
 @media (max-width: 767px) {
   .onlyMobile {
     display: block;
@@ -110,10 +126,6 @@ h3 {
     display: block;
   }
 }
-.objectFC {
-  object-fit: cover;
-}
-
 .btnColor {
   color: rgb(15, 14, 14);
   background-color: rgb(230, 170, 102);
@@ -125,10 +137,6 @@ h3 {
   border-color: rgb(196, 108, 8);
 }
 
-.animate__pulse {
-  animation-iteration-count: infinite;
-}
-
 .widthForm {
   width: 150px;
 }
@@ -136,6 +144,15 @@ h3 {
 @media screen and (max-width: 768px) {
   .widthForm {
     width: 25%;
+  }
+}
+.widthFormContacto {
+  width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .widthFormContacto {
+    width: 100%;
   }
 }
 .form-thumbnail {
@@ -146,24 +163,21 @@ h3 {
   height: auto;
 }
 
-footer {
-  background-color: rgb(15, 14, 14);
-  color: rgb(243, 240, 240);
+.m-6 {
+  margin: 5rem;
 }
-footer .fa-instagram {
-  animation-delay: 0s;
+
+@media screen and (max-width: 768px) {
+  .m-6 {
+    margin: 2rem;
+  }
 }
-footer .fa-twitter {
-  animation-delay: 1s;
+.objectFC {
+  object-fit: cover;
 }
-footer .fa-facebook {
-  animation-delay: 2s;
-}
-footer .logoAnimado {
-  animation-name: flotar;
-  animation-duration: 3s;
+
+.animate__pulse {
   animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
 }
 
 /*Index*/
@@ -240,8 +254,18 @@ footer .logoAnimado {
 }
 
 /*Contacto*/
-.mainContacto .widthFormContacto {
-  width: 100%;
+.mainContacto .encabezadoContacto {
+  height: 40vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4392156863), rgba(0, 0, 0, 0.4392156863)), url(../assets/imagenes/contacto.webp);
+  background-size: cover;
+  background-position: center;
+}
+@media screen and (max-width: 768px) {
+  .mainContacto .encabezadoContacto {
+    height: 20vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4392156863), rgba(0, 0, 0, 0.4392156863)), url(../assets/imagenes/contacto-mobile.webp);
+    background-size: cover;
+  }
 }
 
 /*Nosotros*/

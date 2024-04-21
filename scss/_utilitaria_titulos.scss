@@ -1,0 +1,8 @@
+h1 {
+    text-shadow: $valor-2px $valor-2px $valor-2px map-get($colores, color-negro);
+    color: map-get($colores, color-blanco);
+}
+
+h3 {
+    font-family: $font-secundaria;
+}

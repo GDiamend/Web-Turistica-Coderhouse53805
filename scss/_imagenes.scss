@@ -1,0 +1,16 @@
+$background-img-bandera: url(../assets/imagenes/bandera.webp);
+$background-img-bandera-mobile: url(../assets/imagenes/bandera-mobile.webp);
+$background-img-fondo: url(../assets/imagenes/fondo-beige.webp);
+$background-img-fondo-mobile: url(../assets/imagenes/fondo-beige-mobile.webp);
+$background-img-index: linear-gradient(to bottom, map-get($colores, color-transparente), map-get($colores, color-transparente)), url(../assets/imagenes/patagonia-02.webp);
+$background-img-index-mobile: linear-gradient(to bottom, map-get($colores, color-transparente), map-get($colores, color-transparente)), url(../assets/imagenes/patagonia-02-mobile.webp);
+$background-img-reservas: linear-gradient(to bottom, map-get($colores, color-transparente), map-get($colores, color-transparente)), url(../assets/imagenes/aeropuerto.webp);
+$background-img-reservas-mobile: linear-gradient(to bottom, map-get($colores, color-transparente), map-get($colores, color-transparente)), url(../assets/imagenes/aeropuerto-mobile.webp);
+$background-img-destinos: linear-gradient(to bottom, map-get($colores, color-transparente), map-get($colores, color-transparente)), url(../assets/imagenes/bariloche-02.webp);
+$background-img-destinos-mobile: linear-gradient(to bottom, map-get($colores, color-transparente), map-get($colores, color-transparente)), url(../assets/imagenes/bariloche-02-mobile.webp);
+$background-img-nosotros: linear-gradient(to bottom, map-get($colores, color-transparente), map-get($colores, color-transparente)), url(../assets/imagenes/pluma-papel.webp);
+$background-img-nosotros-mobile: linear-gradient(to bottom, map-get($colores, color-transparente), map-get($colores, color-transparente)), url(../assets/imagenes/pluma-papel-mobile.webp);
+$background-img-404: linear-gradient(to bottom, map-get($colores, color-transparente), map-get($colores, color-transparente)), url(../assets/imagenes/404.webp);
+$background-img-404-mobile: linear-gradient(to bottom, map-get($colores, color-transparente), map-get($colores, color-transparente)), url(../assets/imagenes/404-mobile.webp);
+$background-img-contacto: linear-gradient(to bottom, map-get($colores, color-transparente), map-get($colores, color-transparente)), url(../assets/imagenes/contacto.webp);
+$background-img-contacto-mobile: linear-gradient(to bottom, map-get($colores, color-transparente), map-get($colores, color-transparente)), url(../assets/imagenes/contacto-mobile.webp);

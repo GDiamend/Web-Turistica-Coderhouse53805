@@ -1,0 +1,9 @@
+.imgBg {
+    @include asignarImgBg($background-img-fondo, contain);
+}
+
+@media screen and (max-width: $valor-768px) {
+    .imgBg {
+        @include asignarImgBg($background-img-fondo-mobile, cover);
+    }
+}

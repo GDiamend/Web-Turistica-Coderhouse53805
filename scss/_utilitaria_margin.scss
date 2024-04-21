@@ -1,0 +1,9 @@
+.m-6 {
+    margin: $valor-fs-5rem;
+}
+
+@media screen and (max-width: $valor-768px) {
+    .m-6 {
+        margin: $valor-fs-2rem;
+    }
+}

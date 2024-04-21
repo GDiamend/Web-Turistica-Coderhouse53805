@@ -1,0 +1,23 @@
+footer {
+    background-color: map-get($colores, color-negro);
+    color: map-get($colores, color-blanco);
+
+    .fa-instagram {
+        animation-delay: $valor-0s;
+    }
+
+    .fa-twitter {
+        animation-delay: $valor-1s;
+    }
+
+    .fa-facebook {
+        animation-delay: $valor-2s;
+    }
+
+    .logoAnimado {
+        animation-name: flotar;
+        animation-duration: $valor-3s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+}

@@ -1,0 +1,57 @@
+body {
+    @include asignarImgBg($background-img-fondo, cover);
+    font-family: $font-principal;
+    color: map-get($colores, color-negro);
+    background-color: map-get($colores, color-blanco);
+
+    .bgNavegacion {
+        @include asignarImgBg($background-img-bandera, contain);
+
+        .navbar-nav {
+            .nav-link {
+                color: map-get($colores, color-negro);
+
+                &:hover {
+                    color: map-get($colores, color-azul);
+                }
+            }
+        }
+
+        .subrayado {
+            display: inline-block;
+            position: relative;
+        }
+
+        .subrayado::after {
+            content: '';
+            position: absolute;
+            width: $valor-100p;
+            height: $valor-4px;
+            bottom: $valor-0;
+            left: $valor-0;
+            background-color: map-get($colores, color-azul);
+            transform: scalex($valor-0);
+            transform-origin: bottom right;
+            transition: transform $valor-0-6s ease-out;
+        }
+
+        .subrayado:hover::after {
+            transform: scaleX($valor-1);
+            transform-origin: bottom left;
+        }
+    }
+}
+
+@media screen and (max-width: $valor-768px) {
+    body {
+        @include asignarImgBg($background-img-fondo-mobile, cover);
+
+        .bgNavegacion {
+            @include asignarImgBg($background-img-bandera-mobile, cover);
+
+            .textSize {
+                font-size: $valor-fs-08rem;
+            }
+        }
+    }
+}

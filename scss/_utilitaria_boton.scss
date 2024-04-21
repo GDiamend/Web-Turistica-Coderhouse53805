@@ -1,0 +1,7 @@
+.btnColor {
+    @include asignarClrBtn(map-get($colores, color-negro), map-get($colores, color-boton), map-get($colores, color-boton));
+
+    &:hover {
+        @include asignarClrBtn(map-get($colores, color-negro), map-get($colores, color-boton-hover), map-get($colores, color-boton-hover));
+    }
+}

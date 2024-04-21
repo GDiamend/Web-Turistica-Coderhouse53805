@@ -1,0 +1,19 @@
+.widthForm {
+    @include asignarWidth($valor-150px);
+}
+
+@media screen and (max-width: $valor-768px) {
+    .widthForm {
+        @include asignarWidth($valor-25p);
+    }
+}
+
+.widthFormContacto {
+    @include asignarWidth($valor-50p);
+}
+
+@media screen and (max-width: $valor-768px) {
+    .widthFormContacto {
+        @include asignarWidth($valor-100p);
+    }
+}

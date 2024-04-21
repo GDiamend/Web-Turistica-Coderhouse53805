@@ -1,7 +1,16 @@
 /*Contacto*/
 
 .mainContacto {
-    .widthFormContacto {
-        width: $valor-100p;
+    .encabezadoContacto {
+        height: $valor-40vh;
+        @include asignarImgBg($background-img-contacto, cover);
+        background-position: center;
+    }
+
+    @media screen and (max-width: $valor-768px) {
+        .encabezadoContacto {
+            height: $valor-20vh;
+            @include asignarImgBg($background-img-contacto-mobile, cover);
+        }
     }
 }
