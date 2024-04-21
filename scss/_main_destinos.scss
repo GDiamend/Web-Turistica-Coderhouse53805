@@ -9,6 +9,7 @@
 
     @media screen and (max-width: $valor-768px) {
         .encabezadoDestinos {
+            height: $valor-40vh;
             @include asignarImgBg($background-img-destinos-mobile, cover);
         }
     }
