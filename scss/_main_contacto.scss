@@ -4,11 +4,4 @@
     .widthFormContacto {
         width: $valor-100p;
     }
-    .form-thumbnail {
-        padding: $valor-fs-08rem;
-        border: $valor-2px solid map-get($colores, color-negro);
-        border-radius: $valor-fs-08rem;
-        max-width: $valor-100p;
-        height: auto;
-      }
 }

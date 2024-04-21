@@ -1,0 +1,32 @@
+/*404*/
+
+.main404 {
+    .encabezado404 {
+        height: 80vh;
+        @include asignarImgBg($background-img-404, cover);
+        background-position: center;
+
+        .h1Main404 {
+            padding-top: $valor-200px;
+        }
+
+        .h2Main404 {
+            color: map-get($colores, color-blanco);
+            text-shadow: $valor-2px $valor-2px $valor-2px map-get($colores, color-negro);
+        }
+    }
+
+    @media screen and (max-width: $valor-768px) {
+        .encabezado404 {
+            @include asignarImgBg($background-img-404-mobile, cover);
+        }
+
+        .h1Main404 {
+            padding-top: $valor-50px;
+        }
+
+        .h2Main404 {
+            font-size: $valor-fs-2rem;
+        }
+    }
+}

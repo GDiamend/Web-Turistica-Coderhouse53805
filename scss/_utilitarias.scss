@@ -132,6 +132,14 @@ h3 {
     }
 }
 
+.form-thumbnail {
+    padding: $valor-8px;
+    border: $valor-2px solid map-get($colores, color-negro);
+    border-radius: $valor-fs-08rem;
+    max-width: $valor-100p;
+    height: auto;
+  }
+
 footer {
     background-color: map-get($colores, color-negro);
     color: map-get($colores, color-blanco);
